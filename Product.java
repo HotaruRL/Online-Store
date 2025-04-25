@@ -1,11 +1,11 @@
 class Product {
 
-        String SKU;
-        String productName;
-        double price;
-        String department;
+        private String SKU;
+        private String productName;
+        private double price;
+        private String department;
 
-        public Product(String SKU, String productName, double price, String department ){
+        Product(String SKU, String productName, double price, String department ){
             this.SKU = SKU;
             this.productName = productName;
             this.price = price;
@@ -21,6 +21,7 @@ class Product {
         public String getDepartment(){
             return department;
         }
+
     }
 
 
